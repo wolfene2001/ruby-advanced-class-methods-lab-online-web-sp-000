@@ -5,12 +5,13 @@ class Song
   def self.all
     @@all
   end
-def Song.create
+
+def Song.create(name)
 
   @@all << Song.new
 end
-  def save
-    self.class.all << self
-  end
+#  def save
+#    self.class.all << self
+#  end
 
 end
