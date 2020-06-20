@@ -49,6 +49,8 @@ def self.new_from_filename(filename)
   song.artist_name = artist_name
   song
 end
+
+def create_from
 def save
   self.class.all << self
 end
