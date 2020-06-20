@@ -45,7 +45,7 @@ def self.new_from_filename(filename)
   artist_name = new_file[0]
   song_name = new_file[1].gsub(".mp3", " ")
   song = self.new
-  
+  song.name = song_name
  
 def save
   self.class.all << self
