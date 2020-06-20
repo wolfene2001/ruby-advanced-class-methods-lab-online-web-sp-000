@@ -41,7 +41,8 @@ def self.find_by_name(song_name)
 end
 
 def self.new_from_filename(filename)
-  new_file = 
+  new_file = filename.split(" - ")
+  
   
  
 def save
